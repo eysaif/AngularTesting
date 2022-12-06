@@ -28,4 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm audit fix --force
+    - run: npm fund --force 
     - run: npm run e2e
